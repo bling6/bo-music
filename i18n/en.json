@@ -1,0 +1,137 @@
+{
+  "common": {
+    "appName": "BO-Music",
+    "loading": "Loading...",
+    "save": "Save",
+    "saved": "Saved",
+    "clear": "Clear",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "download": "Download",
+    "play": "Play",
+    "pause": "Pause",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "features": "Features",
+    "create": "Create",
+    "settings": "Settings",
+    "history": "History",
+    "startCreating": "Start Creating"
+  },
+  "hero": {
+    "line1": "Turn Inspiration Into",
+    "line2": "Complete Songs",
+    "subtitle": "Enter a description or lyrics, and AI composes, writes, and generates cover art. No music skills needed — create original music in minutes.",
+    "cta": "Start Creating"
+  },
+  "features": {
+    "label": "Features",
+    "title1": "AI Redefines",
+    "title2": "Music Creation",
+    "compose": {
+      "title": "AI Smart Composition",
+      "desc": "Powered by MiniMax, automatically generate melodies, harmonies, and arrangements from descriptions. Multiple genres from pop to electronic."
+    },
+    "lyrics": {
+      "title": "Smart Lyrics Generation",
+      "desc": "Auto-generate lyrics with structural tag control. Edit, continue writing, and precisely control Verse, Chorus, Bridge sections."
+    },
+    "cover": {
+      "title": "AI Cover Design",
+      "desc": "Each song automatically generates a unique AI cover image, perfectly matching the song's style. 1:1 square format, supports full-size view."
+    },
+    "dual": {
+      "title": "Dual-Mode Creation",
+      "desc": "Simple mode for one-click songs, pro mode for fine-grained control over sample rate, bitrate, format, and more parameters."
+    }
+  },
+  "creation": {
+    "label": "Create",
+    "title": "Start Creating",
+    "simpleMode": "Simple Mode",
+    "proMode": "Pro Mode",
+    "songDescription": "Song Description",
+    "songDescriptionPlaceholder": "Describe the song you want to create, e.g.: A light pop song about a summer beach with electronic elements...",
+    "autoHint": "AI will automatically generate lyrics and melody based on the description",
+    "songTitle": "Song Title (Optional)",
+    "songTitlePlaceholder": "Give your song a name",
+    "generateMusic": "Generate Music",
+    "generating": "Generating, please be patient as it may take a while....",
+    "generatingLyrics": "Generating lyrics...",
+    "simpleModeNoLyricsHint": "Simple mode does not support custom lyrics. Use Pro mode to edit lyrics."
+  },
+  "proMode": {
+    "step1": "Generate Lyrics",
+    "step2": "Edit Lyrics",
+    "step3": "Generate Music",
+    "generationMode": "Generation Mode",
+    "writeFullSong": "Write Full Song",
+    "editContinue": "Edit / Continue",
+    "songPrompt": "Song Description",
+    "songPromptPlaceholder": "Describe the theme and style...",
+    "existingLyrics": "Existing Lyrics",
+    "existingLyricsPlaceholder": "Paste your existing lyrics...",
+    "generateLyrics": "Generate Lyrics",
+    "editLyrics": "Edit Lyrics",
+    "regenerate": "Regenerate",
+    "continue": "Continue",
+    "nextGenerateMusic": "Next: Generate Music",
+    "styleDescription": "Style / Mood / Scene",
+    "stylePlaceholder": "Describe the style, mood, and scene...",
+    "instrumental": "Instrumental (No Vocals)",
+    "audioSettings": "Audio Settings",
+    "sampleRate": "Sample Rate",
+    "bitrate": "Bitrate",
+    "audioFormat": "Format",
+    "startGenerate": "Start Generating",
+    "model": "Model"
+  },
+  "player": {
+    "generating": "Generating",
+    "playing": "Playing",
+    "viewLarge": "View Full Size",
+    "coverGenerating": "Generating cover...",
+    "lyrics": "Lyrics"
+  },
+  "settings": {
+    "label": "Settings",
+    "title": "Settings",
+    "apiKeyTitle": "MiniMax API Key",
+    "apiKeyDesc": "Your API Key is stored locally in your browser and never uploaded to the server.",
+    "apiKeyPlaceholder": "Enter your MiniMax API Key"
+  },
+  "history": {
+    "label": "History",
+    "title": "History",
+    "empty": "No history yet",
+    "noStyle": "No style tags",
+    "untitled": "Untitled",
+    "rename": "Rename",
+    "renameTitle": "Rename Song",
+    "renamePlaceholder": "Enter a new title"
+  },
+  "production": {
+    "downloadWarning": "Please download and save now. Music cannot be recovered after closing the page."
+  },
+  "errors": {
+    "apiKeyRequired": "Please configure your API Key first",
+    "promptRequired": "Please enter a song description",
+    "lyricsRequired": "Please enter existing lyrics",
+    "generationFailed": "Generation failed",
+    "lyricsFailed": "Lyrics generation failed",
+    "continueFailed": "Continue writing failed",
+    "1002": "Rate limit reached, please try again later",
+    "1004": "Authentication failed, please check your API Key",
+    "1008": "Insufficient account balance",
+    "1026": "Input contains sensitive content, please modify and retry",
+    "2013": "Invalid parameters, please check your input",
+    "2049": "Invalid API Key",
+    "coverGenerationFailed": "Cover generation failed"
+  },
+  "footer": {
+    "slogan": "Create your music with AI"
+  }
+}

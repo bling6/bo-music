@@ -1,0 +1,137 @@
+{
+  "common": {
+    "appName": "BO-Music",
+    "loading": "加载中...",
+    "save": "保存",
+    "saved": "已保存",
+    "clear": "清除",
+    "delete": "删除",
+    "cancel": "取消",
+    "confirm": "确认",
+    "download": "下载",
+    "play": "播放",
+    "pause": "暂停",
+    "error": "出错了",
+    "success": "成功"
+  },
+  "nav": {
+    "features": "功能",
+    "create": "创作",
+    "settings": "设置",
+    "history": "历史",
+    "startCreating": "开始创作"
+  },
+  "hero": {
+    "line1": "将灵感转化为",
+    "line2": "完整歌曲",
+    "subtitle": "输入描述或歌词，AI 为你谱曲、写词、生成封面。无需音乐基础，几分钟完成原创音乐。",
+    "cta": "开始创作"
+  },
+  "features": {
+    "label": "Features",
+    "title1": "AI 重新定义",
+    "title2": "音乐创作流程",
+    "compose": {
+      "title": "AI 智能作曲",
+      "desc": "基于 MiniMax 大模型，根据描述自动生成旋律、和声和编曲。支持多种风格，从流行到电子。"
+    },
+    "lyrics": {
+      "title": "智能歌词生成",
+      "desc": "自动生成歌词并支持结构标签控制。可编辑、续写，精准控制 Verse、Chorus、Bridge 段落。"
+    },
+    "cover": {
+      "title": "AI 封面设计",
+      "desc": "每首歌曲自动生成独特的 AI 封面图，完美匹配歌曲风格。1:1 正方形格式，支持查看大图。"
+    },
+    "dual": {
+      "title": "双模式创作",
+      "desc": "简单模式一键出歌，专业模式精细控制采样率、比特率、格式等参数，满足创作者需求。"
+    }
+  },
+  "creation": {
+    "label": "Create",
+    "title": "开始创作",
+    "simpleMode": "简单模式",
+    "proMode": "专业模式",
+    "songDescription": "歌曲描述",
+    "songDescriptionPlaceholder": "描述你想创作的歌曲，例如：一首关于夏日海滩的轻快流行歌曲，带有电子元素...",
+    "autoHint": "AI 将根据描述自动生成歌词和旋律",
+    "songTitle": "歌曲标题（可选）",
+    "songTitlePlaceholder": "给你的歌起个名字",
+    "generateMusic": "生成音乐",
+    "generating": "生成中，时间较长请耐心等待...",
+    "generatingLyrics": "生成歌词中...",
+    "simpleModeNoLyricsHint": "简单模式不支持生成歌词，如需生成歌词请使用专业模式"
+  },
+  "proMode": {
+    "step1": "生成歌词",
+    "step2": "编辑歌词",
+    "step3": "生成音乐",
+    "generationMode": "生成模式",
+    "writeFullSong": "写完整歌曲",
+    "editContinue": "编辑/续写",
+    "songPrompt": "歌曲描述",
+    "songPromptPlaceholder": "描述歌曲的主题和风格...",
+    "existingLyrics": "已有歌词",
+    "existingLyricsPlaceholder": "粘贴你的已有歌词...",
+    "generateLyrics": "生成歌词",
+    "editLyrics": "编辑歌词",
+    "regenerate": "重新生成",
+    "continue": "续写",
+    "nextGenerateMusic": "下一步：生成音乐",
+    "styleDescription": "风格/情绪/场景描述",
+    "stylePlaceholder": "描述音乐的风格、情绪、场景...",
+    "instrumental": "纯音乐（无人声）",
+    "audioSettings": "音频参数设置",
+    "sampleRate": "采样率",
+    "bitrate": "比特率",
+    "audioFormat": "格式",
+    "startGenerate": "开始生成",
+    "model": "模型"
+  },
+  "player": {
+    "generating": "Generating",
+    "playing": "Playing",
+    "viewLarge": "查看大图",
+    "coverGenerating": "封面生成中...",
+    "lyrics": "歌词"
+  },
+  "settings": {
+    "label": "Settings",
+    "title": "配置",
+    "apiKeyTitle": "MiniMax API Key",
+    "apiKeyDesc": "你的 API Key 将保存在本地浏览器中，不会上传到服务器。",
+    "apiKeyPlaceholder": "输入你的 MiniMax API Key"
+  },
+  "history": {
+    "label": "History",
+    "title": "历史记录",
+    "empty": "暂无历史记录",
+    "noStyle": "无风格标签",
+    "untitled": "暂无歌曲名",
+    "rename": "重命名",
+    "renameTitle": "修改歌曲标题",
+    "renamePlaceholder": "输入新的歌曲标题"
+  },
+  "production": {
+    "downloadWarning": "请及时下载保存，关闭页面后音乐将无法找回"
+  },
+  "errors": {
+    "apiKeyRequired": "请先配置 API Key",
+    "promptRequired": "请输入歌曲描述",
+    "lyricsRequired": "请输入已有歌词",
+    "generationFailed": "生成失败",
+    "lyricsFailed": "歌词生成失败",
+    "continueFailed": "续写失败",
+    "1002": "触发限流，请稍后再试",
+    "1004": "账号鉴权失败，请检查 API Key",
+    "1008": "账号余额不足",
+    "1026": "输入包含敏感内容，请修改后重试",
+    "2013": "参数异常，请检查输入",
+    "2049": "无效的 API Key",
+    "coverGenerationFailed": "封面生成失败"
+  },
+  "footer": {
+    "slogan": "用 AI 创作属于你的音乐"
+  }
+}
