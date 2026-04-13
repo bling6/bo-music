@@ -59,7 +59,7 @@ export async function generateCoverImage(
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
       },
-      timeout: 120000,
+      timeout: 60 * 1000 * 5,
     }
   );
 
