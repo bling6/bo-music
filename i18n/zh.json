@@ -98,7 +98,7 @@
   },
   "settings": {
     "label": "Settings",
-    "title": "配置",
+    "title": "设置",
     "apiKeyTitle": "MiniMax API Key",
     "apiKeyDesc": "你的 API Key 将保存在本地浏览器中，不会上传到服务器。",
     "apiKeyPlaceholder": "输入你的 MiniMax API Key"

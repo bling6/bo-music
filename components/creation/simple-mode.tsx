@@ -24,7 +24,7 @@ import { useI18n } from '@/lib/i18n';
 export function SimpleMode() {
   const [prompt, setPrompt] = useState('');
   const [title, setTitle] = useState('');
-  const [model, setModel] = useState<'music-2.6' | 'music-2.6-free'>('music-2.6');
+  const [model, setModel] = useState<'music-2.6' | 'music-2.6-free'>('music-2.6-free');
   const router = useRouter();
 
   const { startGeneration, generationSuccess, generationError, setCoverImage, updateRecentCoverImage, generationStatus } = useMusicStore();

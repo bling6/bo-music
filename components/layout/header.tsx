@@ -29,6 +29,14 @@ export function Header() {
       </Link>
 
       <div className="flex items-center gap-2">
+        {/* Language toggle */}
+        <button
+          onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
+          className="text-xs font-semibold px-2 py-1 rounded border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-500 transition-colors"
+        >
+          {locale === 'zh' ? '中' : 'EN'}
+        </button>
+        
         <nav className="hidden md:flex items-center gap-2">
           {navItems.map(({ href, label, icon: Icon }) => {
             const isActive = pathname === href;
@@ -49,13 +57,6 @@ export function Header() {
           })}
         </nav>
 
-        {/* Language toggle */}
-        <button
-          onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
-          className="text-xs font-semibold px-2 py-1 rounded border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-500 transition-colors"
-        >
-          {locale === 'zh' ? '中' : 'EN'}
-        </button>
 
         {/* Mobile nav */}
         <nav className="flex md:hidden items-center gap-1">
