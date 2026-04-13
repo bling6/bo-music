@@ -2,7 +2,7 @@
 
 AI 音乐生成网站，基于 MiniMax 音乐生成大模型，输入描述或歌词即可生成完整歌曲并自动配封面。
 
-**在线地址：** https://bo-music-tbrn.vercel.app/
+**在线地址：** https://bo-music.vercel.app/
 
 ## 功能
 
